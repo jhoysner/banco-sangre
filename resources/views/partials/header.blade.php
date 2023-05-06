@@ -1,7 +1,9 @@
 <header class="main-header">
     <a href="" class="logo" style="height: 69px;padding-top:10px">
         <span class="logo-mini"><b>BS</b></span>
-        <span class="logo-lg"><b>Banco Sangre</b></span>
+        <span class="logo-lg">                               
+             <img src="{{asset('images/logo.jpeg')}}" alt="" width="30%"  style="border-bottom:1px solid black;">
+        </span>
     </a>
     <nav class="navbar navbar-static-top">
         <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
