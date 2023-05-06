@@ -111,7 +111,7 @@
                                                         <span style="color: blue;
                                                         font-size: 12px;">*Llenar si es Dirigida a Paciente</span>
                                                         <input type="text" class="form-control" name="nombre_paciente"
-                                                            required>
+                                                            >
                                                     </div>
                                                     
                                                 </div>
