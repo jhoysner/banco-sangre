@@ -85,7 +85,7 @@ class DonanteController extends Controller
     {
         //
         $userHistoria = HistoriaUser::where('donante_id',$id)->groupBy('fecha')->get();
-        return view('historia.historiaHistorial', compact('userHistoria', 'id'));
+        return view('historia.historial', compact('userHistoria', 'id'));
     }
     public function historia($id)
     {   

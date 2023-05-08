@@ -30,9 +30,9 @@
                                 @endif
                                 <div class="row">
                                     <div class="container">
-                                        <h5 class="font-weight-bold">Editar Personal</h5>
+                                        <h5 class="font-weight-bold">Editar Donante</h5>
 
-                                        <a href="{{ route('donante.index') }}" class="btn btn-info mb-4">Personal</a>
+                                        <a href="{{ route('donante.index') }}" class="btn btn-info mb-4">Donantes</a>
 
                                         <form action="{{ route('donante.update', $data->id) }}" method="POST">
                                             @csrf

@@ -15,7 +15,7 @@
             <div class="x_content">
               <div class="margin-bottom-40">
                 <!-- EMPIEZA TABLAS-->
-                <h5 class="font-weight-bold">Listado de Historias</h5>
+                <h5 class="font-weight-bold">Listado de Historias </h5>
                 <a href="{{route('donante.historia',$id)}}" class="btn btn-success mb-3">CREAR</a>
               </div>
               @if(Session::has('message'))
