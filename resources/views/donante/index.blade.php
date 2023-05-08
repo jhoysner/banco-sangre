@@ -52,8 +52,8 @@
                       <td>
                         <div class="d-flex justify-content-around">
                           <a href="{{route('donante.edit',$item->id)}}" class="btn btn-info"><i class="fa fa-pencil" aria-hidden="true"></i></a> 
-                          <a href="{{route('donante.serologico.historial',$item->id)}}" data-toggle="tooltip" title="Serologico Donante!"  class="btn btn-secondary"><i class="fa fa-stethoscope" aria-hidden="true"></i></a> 
                           <a href="{{route('donante.historia.historial',$item->id)}}" data-toggle="tooltip" title="Historia Donante!"  class="btn btn-warning"><i class="fa fa-file" aria-hidden="true"></i></a> 
+                          <a href="{{route('donante.serologico.historial',$item->id)}}" data-toggle="tooltip" title="Serologico Donante!"  class="btn btn-secondary"><i class="fa fa-stethoscope" aria-hidden="true"></i></a> 
                           {{-- <button type="button" class="btn btn-xs btn-danger delete" data-toggle="modal" data-target="#staticBackdrop"  data-id="{{$item->id}}">    
                             <i class="fa fa-trash" aria-hidden="true"></i>
                           </button> --}}
